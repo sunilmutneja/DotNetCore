@@ -13,9 +13,10 @@ class App extends Component {
     };
 
     componentDidMount() {
-        fetch('http://52.91.140.26/health')
+        fetch('http://127.0.0.1:8443/restaurant/')
             .then(res => res.json())
             .then((data) => {
+				 console.log(data);
                 this.setState({ contacts: data })
             })
             .catch(console.log)
