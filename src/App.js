@@ -13,7 +13,7 @@ class App extends Component {
     };
 
     componentDidMount() {
-        fetch('http://52.91.140.26/a.json')
+        fetch('http://52.91.140.26/restaurant/')
             .then(res => res.json())
             .then((data) => {
 				 console.log(data);
