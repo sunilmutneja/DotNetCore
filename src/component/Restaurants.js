@@ -8,15 +8,15 @@ const RestaurantsDisplay = (props) => {
         if(datalist){
             return datalist.map((item,index) => {
                 return(
-                    <div class="card col-md-2">
-                            <div class="row">
-                            <img class="card-img-top" src={item.thumb} alt="thumb"/>
-                            <span class="topTemp">{item.name}</span>
+                    <div classname="card col-md-2">
+                            <div classname="row">
+                            <img classname="card-img-top" src={item.thumb} alt="thumb"/>
+                            <span classname="topTemp">{item.name}</span>
                             </div>
-                            <div class="card-body">
-                            <span class="max">{item.city}</span>   /
-                                      <span class="min">{item.locality}</span>
-                                <h4 class="card-title">2 Person = ₹{item.min_price}</h4>
+                            <div classname="card-body">
+                            <span classname="max">{item.city}</span>   /
+                                      <span classname="min">{item.locality}</span>
+                                <h4 classname="card-title">2 Person = ₹{item.min_price}</h4>
                                 
                             </div>
                         </div>
