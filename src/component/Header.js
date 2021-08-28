@@ -1,7 +1,7 @@
 import React, {Component, Fragment } from 'react';
 import './Header.css';
 
-classname Header extends Component {
+class Header extends Component {
 
     render(){
       
