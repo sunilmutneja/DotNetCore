@@ -8,24 +8,24 @@ class Header extends Component {
         return(
             <Fragment>
                <nav className="navbar navbar-inverse">
-                <div classname="container-fluid">
-                    <div classname="navbar-header">
-                    <button type="button" classname="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span classname="icon-bar"></span>
-                        <span classname="icon-bar"></span>
-                        <span classname="icon-bar"></span>                        
+                <div className="container-fluid">
+                    <div className="navbar-header">
+                    <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span className="icon-bar"></span>
+                        <span className="icon-bar"></span>
+                        <span className="icon-bar"></span>                        
                     </button>
-                    <a classname="navbar-brand">Developer Funnel</a>
+                    <a className="navbar-brand">Developer Funnel</a>
                     </div>
-                    <div classname="collapse navbar-collapse" id="myNavbar">
-                    <ul classname="nav navbar-nav">
+                    <div className="collapse navbar-collapse" id="myNavbar">
+                    <ul className="nav navbar-nav">
                         <li ><a >Home</a></li>
                         <li><a >Page 2</a></li>
                         <li><a>Page 3</a></li>
                     </ul>
-                    <ul classname="nav navbar-nav navbar-right">
-                        <li><a><span classname="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                        <li><a ><span classname="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <ul className="nav navbar-nav navbar-right">
+                        <li><a><span className="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a ><span className="glyphicon glyphicon-log-in"></span> Login</a></li>
                     </ul>
                     </div>
                 </div>
